@@ -1,0 +1,58 @@
+ .topnav {
+     overflow: hidden;
+     background-color: #014496;
+ }
+
+ .topnav a {
+     color: rgb(102, 217, 217);
+     text-align: center;
+     padding: 15px 15px 15px 15px;
+     text-decoration: none;
+ }
+
+ .topnav a:hover {
+     background-color: rgb(87, 201, 15);
+
+ }
+
+ .topnav a.active {
+     background-color: rgb(99, 4, 79);
+
+ }
+ .pimg3,
+ .pimg2 {
+     position: relative;
+     opacity: 0.7;
+     height: 400px;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+ }
+
+ .pimg3 {
+     background-image: url("cricket.jpeg");
+     min-height: 100%;
+ }
+
+ .pimg2 {
+     background-image: url("hockey.jpeg");
+     min-height: 100%;
+ }
+
+ .section {
+     text-align: center;
+     padding: 50px 80px;
+ }
+
+ .ptext {
+     position: absolute;
+     width: 100%;
+     text-align: center;
+     font-size: 25px;
+     text-transform: uppercase;
+ }
+
+ .border-trans {
+     background-color: transparent;
+ }
